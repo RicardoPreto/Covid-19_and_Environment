@@ -255,3 +255,42 @@ border: 1px solid rgba(0,0,0,0.1);
 border-radius: 8px;
 text-align: center;
 }
+
+.container, x2, x3{
+	text-align: center;
+}
+
+.x2{
+	background-color: gray;
+}
+
+.linkado{
+	color: white;
+}
+
+.texto_{
+	color: white;
+}
+
+.x3{
+	background-color: white;
+}
+
+.page_end{
+	background-color: gray;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.text_page_end, y1, y2{
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+y1{
+	font-size: 20px;
+}
+
+y2{
+	font-size: 15px;
+}
