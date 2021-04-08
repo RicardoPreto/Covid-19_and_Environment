@@ -73,6 +73,7 @@
 	background: green;
 	color: #FFF;
 	font-size: 16px;
+	border-radius: 5px;
 }
 
 #info_oms .titulo
@@ -253,6 +254,12 @@ a:hover
 	margin-top: 2em;
 	display: inline-block;
 	text-align: center;
+}
+
+.botao_oms{
+	border-radius: 5px;
+	border-style: solid;
+	border-color: green;
 }
 
 .caixa
