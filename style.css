@@ -61,14 +61,18 @@
 
 #entrada_pages a
 {
-	background:black;
 	color: #FFF;
+}
+
+.not_current{
+	font-size: 16px;
 }
 
 .current_page_item
 {
-	background: gray;
+	background: green;
 	color: #FFF;
+	font-size: 16px;
 }
 
 #info_oms .titulo
@@ -124,7 +128,7 @@
 {
 	overflow: hidden;
 	margin: 0em auto;
-	width: 1000px;
+	width: 1018px;
 }
 
 .caixaA,
@@ -132,7 +136,10 @@
 .caixaC
 {
 	width: 320px;
-	background-color: white;
+	background-color: whitesmoke;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: gray;
 }
 
 .caixaA,
@@ -261,7 +268,14 @@ text-align: center;
 }
 
 .x2{
-	background-color: gray;
+	background-color: grey;
+}
+
+.graph_border{
+	border-radius: 20px;
+	border-style: outset;
+	border-width: 5px;
+	border-color: whitesmoke;
 }
 
 .linkado{
