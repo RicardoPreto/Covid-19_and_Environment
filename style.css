@@ -137,6 +137,11 @@
 	border-radius: 0px 0px 40px 40px;
 }
 
+.d{
+	background-image: url("Imagens/Floresta.jpg");
+	border-radius: 0px 0px 40px 40px;
+}
+
 .caixaA,
 .caixaB,
 .caixaC
@@ -313,6 +318,10 @@ text-align: center;
 
 .x3{
 	background-color: white;
+	border-radius: 20px;
+	border-style: inset;
+	border-width: 5px;
+	border-color: white;
 }
 
 .page_end{
@@ -334,18 +343,14 @@ y2{
 	font-size: 15px;
 }
 
-.covid_dados{
-	border-radius: 10px;
-	border-width: 5px;
-	border-style: inset;
-	background-color: gray;
+.covid_data{
+	background: white;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 40px;
 }
 
-.back_covid_dados{
-	background-color: #202020;
-}
 
 .titulo_epid{
-	text-align: center;
-	color: whitesmoke;
+	color: black;
 }
