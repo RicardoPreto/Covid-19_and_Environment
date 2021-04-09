@@ -132,6 +132,11 @@
 	width: 1018px;
 }
 
+.z{
+	background-image: url("Imagens/Road.jpg");
+	border-radius: 0px 0px 40px 40px;
+}
+
 .caixaA,
 .caixaB,
 .caixaC
