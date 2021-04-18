@@ -280,7 +280,8 @@ border-radius: 8px;
 text-align: center;
 }
 
-.container, x2, x3{
+.container, x2, x3
+{
 	text-align: center;
 }
 
@@ -288,27 +289,32 @@ text-align: center;
 	background-color: grey;
 }
 
-.graph_border{
+.graph_border
+{
 	border-radius: 20px;
 	border-style: outset;
 	border-width: 5px;
 	border-color: whitesmoke;
 }
 
-.linkado{
+.linkado
+{
 	color: white;
 }
 
-.texto_{
+.texto_
+{
 	color: whitesmoke;
 }
 
-.texto_1{
+.texto_1
+{
 	color: white;
 	font-size: 10px;
 }
 
-.title_graph{
+.title_graph
+{
 	font-size: 20px;
 	text-align: left;
 	padding-left: 130px;
@@ -316,7 +322,8 @@ text-align: center;
 	color: black;
 }
 
-.x3{
+.x3
+{
 	background-color: white;
 	border-radius: 20px;
 	border-style: inset;
@@ -324,26 +331,21 @@ text-align: center;
 	border-color: white;
 }
 
-.page_end{
+.page_end
+{
 	background-color: gray;
 	text-align: center;
 	border-radius: 20px;
 }
 
-.text_page_end, y1, y2{
+.text_page_end, y1, y2
+{
 	color: whitesmoke;
 	text-decoration: none;
 }
 
-y1{
-	font-size: 20px;
-}
-
-y2{
-	font-size: 15px;
-}
-
-.covid_data{
+.covid_data
+{
 	background: white;
 	text-align: center;
 	border-radius: 20px;
@@ -351,6 +353,57 @@ y2{
 }
 
 
-.titulo_epid{
+.titulo_epid
+{
 	color: black;
+}
+
+.icones-maos:hover
+{
+	width:124.4px;
+	height: 124.4px;
+}
+
+.titulo-h3, .sub-titulo
+{
+	color:whitesmoke;
+}
+
+.titulo-h3
+{
+	font-size:25px;
+}
+
+.sub-titulo
+{
+	font-size:40px;
+	font-family: 'Varela';
+}
+
+.desc-transmissao
+{
+	color:gray;
+	font-size:20px;
+}
+
+.container-como-se-proteger
+{
+	background-color: grey;
+	text-align: center;
+}
+
+.bordercontainer img
+{
+	border-radius:15px;
+	border:inset 5px white;
+	width: 450px;
+	height: 650px;
+}
+
+.row div
+{
+	float: left;
+  	width: 48%;
+	text-align: center;
+	padding: 10px;
 }
