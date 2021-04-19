@@ -392,12 +392,11 @@ text-align: center;
 	text-align: center;
 }
 
-.bordercontainer img
+.image_covid img
 {
-	border-radius:15px;
-	border:inset 5px white;
 	width: 450px;
 	height: 650px;
+	border-radius: 5px 20px 20px 20px;
 }
 
 .row div
@@ -406,4 +405,9 @@ text-align: center;
   	width: 48%;
 	text-align: center;
 	padding: 10px;
+}
+
+.paragrafos p
+{
+	margin-top: 250px;
 }
