@@ -411,3 +411,24 @@ text-align: center;
 {
 	margin-top: 250px;
 }
+
+.video
+{
+	outline:none;
+	margin-bottom: 10px;
+}
+
+.image_vac
+{
+	border-radius: 15px;
+	border: 5px inset white;
+	height: 600px;
+	width: 1000px;
+}
+
+.text_vac
+{
+	font-size:15px;
+	font-family: 'Varela';
+	color:white;
+}
