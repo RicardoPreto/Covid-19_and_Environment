@@ -371,7 +371,7 @@ text-align: center;
 
 .titulo-h3
 {
-	font-size:25px;
+	font-size:28px;
 }
 
 .sub-titulo
@@ -380,15 +380,28 @@ text-align: center;
 	font-family: 'Varela';
 }
 
-.desc-transmissao
+.desc-transmissao p
 {
 	color:gray;
 	font-size:20px;
+	margin:0 20%;
 }
 
 .container-como-se-proteger
 {
-	background-color: grey;
+	background-color: rgb(58, 58, 58);
+	text-align: center;
+}
+
+.back_stayhome
+{
+	background-color: #202020;
+	text-align: center;
+}
+
+.back_mask
+{
+	background-color: #202020;
 	text-align: center;
 }
 
@@ -396,7 +409,7 @@ text-align: center;
 {
 	width: 450px;
 	height: 650px;
-	border-radius: 5px 20px 20px 20px;
+	border-radius: 0px 30px 25px 20px;
 }
 
 .row div
@@ -407,9 +420,12 @@ text-align: center;
 	padding: 10px;
 }
 
-.paragrafos p
+.txt_corona p
 {
 	margin-top: 250px;
+	color:whitesmoke;
+	font-size: 18px;
+	text-align: left;
 }
 
 .video
@@ -421,14 +437,55 @@ text-align: center;
 .image_vac
 {
 	border-radius: 15px;
-	border: 5px inset white;
+	border: 10px unset;
 	height: 600px;
 	width: 1000px;
 }
 
 .text_vac
 {
-	font-size:15px;
+	font-size:17px;
 	font-family: 'Varela';
+	color:white;
+}
+
+.back_protect
+{
+	text-align:center;
+	overflow: hidden;
+	width: 100%;
+	background-color: #202020;
+}
+
+.co2_emission
+{
+	text-align:center;
+}
+
+.title_co2_emission
+{
+	font-size:18px;
+	color:whitesmoke;
+	font-family:'Varela';
+}
+
+.image_co2_sector
+{
+	border-radius: 5px;
+	border-style: unset;
+	width:600px;	
+	height: 350px;
+}
+
+.txt_font_daily
+{
+	color: white;
+	font-size: 15px;
+	font-family:'Varela';
+}
+
+.txt_font_daily a
+{
+	text-decoration: none;
 	color:white;
 }
