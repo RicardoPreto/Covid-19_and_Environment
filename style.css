@@ -489,3 +489,41 @@ text-align: center;
 	text-decoration: none;
 	color:white;
 }
+
+.div_co2_emission div
+{
+	float: right;
+  	width: 48%;
+	text-align: center;
+	padding: 10px;
+}
+
+.container2
+{
+	width:90%;
+	margin: 0em auto;
+	text-align:center;
+	overflow: hidden;
+}
+
+.txt_co2_1
+{
+	text-align:center;
+	margin-top:50px;
+}
+
+.title_delivery
+{
+	color:white;
+	margin-bottom: 25px;
+}
+
+.pad_right p
+{
+	padding-left: 10px;
+}
+
+.pad_left p
+{
+	padding-right: 10px;
+}
