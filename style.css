@@ -37,43 +37,38 @@
 	display: inline-block;
 }
 
-#entrada_pages li
+#entrada_pages ul li
 {
 	display: block;
 	float: left;
 	text-align: center;
 }
 
-#entrada_pages li a, #entrada_pages li span
+#entrada_pages ul li a
 {
-	padding: 1em 1.5em;
+	padding: 0 1em;
 	letter-spacing: 1px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	color: #FFF;
 }
 
-#entrada_pages li:hover a, #entrada_pages li.active a, #entrada_pages li.active span
+#entrada_pages ul li a:hover, #entrada_pages ul li a.active
 {
 	color: #FFF;
 }
 
-#entrada_pages a
-{
-	color: #FFF;
-}
-
-.not_current{
-	font-size: 16px;
+.last_page{
+	margin-right: 0.4em;
 }
 
 .current_page_item
 {
 	background: green;
 	color: #FFF;
-	font-size: 16px;
 	border-radius: 5px;
+	font-size: 1em;
 }
 
 #info_oms .titulo
@@ -129,40 +124,43 @@
 {
 	overflow: hidden;
 	margin: 0em auto;
-	width: 1018px;
+	width: 80%;
 }
 
 .z{
 	background-image: url("Imagens/Road.jpg");
-	border-radius: 0px 0px 40px 40px;
+	border-radius: 0px 0px 40px 0px;
 }
 
 .d{
 	background-image: url("Imagens/Floresta.jpg");
-	border-radius: 0px 0px 40px 40px;
+	border-radius: 0px 0px 0px 40px;
+}
+
+.caixas div 
+{
+	margin-top: 6em;
+	margin-bottom: 6em;
 }
 
 .caixaA,
 .caixaB,
 .caixaC
 {
-	width: 320px;
-	background-color: whitesmoke;
-	border-radius: 20px;
-	border-style: solid;
-	border-color: gray;
-}
-
-.caixaA,
-.caixaB
-{
 	float: left;
 	margin-right: 20px;
+	width: 320px;
+	background-color: whitesmoke;
+	border: solid gray;
+	border-radius: 20px;
 }
-	
-.caixaC
+
+.caixaA p,
+.caixaB p,
+.caixaC p
 {
-	float: right;
+	margin-bottom: 0;
+	padding: 3.2em 2.6em;
 }
 
 html, body
@@ -272,14 +270,6 @@ a:hover
 	border-color: green;
 }
 
-.caixa
-{
-padding: 3em 2em 2em 2em;
-border: 1px solid rgba(0,0,0,0.1);
-border-radius: 8px;
-text-align: center;
-}
-
 .container, x2, x3
 {
 	text-align: center;
@@ -291,10 +281,10 @@ text-align: center;
 
 .graph_border
 {
+	margin-top: 7em;
+	margin-bottom: 7em;
 	border-radius: 20px;
-	border-style: outset;
-	border-width: 5px;
-	border-color: whitesmoke;
+	border: 5px outset whitesmoke;
 }
 
 .linkado
@@ -315,6 +305,7 @@ text-align: center;
 
 .title_graph
 {
+	margin-top: 3em;
 	font-size: 20px;
 	text-align: left;
 	padding-left: 130px;
@@ -324,6 +315,8 @@ text-align: center;
 
 .x3
 {
+	margin-top: 7em;
+	margin-bottom: 7em;
 	background-color: white;
 	border-radius: 20px;
 	border-style: inset;
@@ -331,14 +324,22 @@ text-align: center;
 	border-color: white;
 }
 
+.background_page_end
+{
+	background: #202020;
+	width: 100%;
+	overflow: hidden;
+}
+
 .page_end
 {
 	background-color: gray;
 	text-align: center;
 	border-radius: 20px;
+	padding: 2.2em;
 }
 
-.text_page_end, y1, y2
+.text_page_end
 {
 	color: whitesmoke;
 	text-decoration: none;
@@ -352,30 +353,37 @@ text-align: center;
 	font-size: 40px;
 }
 
-
 .titulo_epid
 {
 	color: black;
+}
+
+.icones-maos
+{
+	margin: -0.6px;
 }
 
 .icones-maos:hover
 {
 	width:124.4px;
 	height: 124.4px;
-}
-
-.titulo-h3, .sub-titulo
-{
-	color:whitesmoke;
+	margin: -5.7px;
 }
 
 .titulo-h3
 {
-	font-size:28px;
+	color:whitesmoke;
+	font-size:1.8em;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
+
+
 
 .sub-titulo
 {
+	color:whitesmoke;
+	margin-top: 3em;
 	font-size:40px;
 	font-family: 'Varela';
 }
@@ -384,24 +392,26 @@ text-align: center;
 {
 	color:gray;
 	font-size:20px;
-	margin:0 20%;
+	margin: 0 20% 5.5em 20%;
 }
 
 .container-como-se-proteger
 {
-	background-color: rgb(58, 58, 58);
 	text-align: center;
+	margin-bottom: 6em;
 }
 
 .back_stayhome
 {
 	background-color: #202020;
 	text-align: center;
+	width: 100%;
 }
 
 .back_mask
 {
 	background-color: #202020;
+	width: 100%;
 	text-align: center;
 }
 
@@ -410,6 +420,8 @@ text-align: center;
 	width: 450px;
 	height: 650px;
 	border-radius: 0px 30px 25px 20px;
+	margin-bottom: 2.5em;
+	margin-top: 2.5em;
 }
 
 .row div
@@ -422,7 +434,7 @@ text-align: center;
 
 .txt_corona p
 {
-	margin-top: 250px;
+	margin-top: 40%;
 	color:whitesmoke;
 	font-size: 18px;
 	text-align: left;
@@ -431,20 +443,23 @@ text-align: center;
 .video
 {
 	outline:none;
-	margin-bottom: 10px;
+	margin-bottom: 4em;
+	width: 80%;
+	height: 80%;
 }
 
 .image_vac
 {
 	border-radius: 15px;
 	border: 10px unset;
-	height: 600px;
-	width: 1000px;
+	height: 90%;
+	width: 90%;
 }
 
 .text_vac
 {
-	font-size:17px;
+	margin: 1.4em 0 3.5em 0;
+	font-size:16px;
 	font-family: 'Varela';
 	color:white;
 }
