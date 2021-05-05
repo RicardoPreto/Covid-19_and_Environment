@@ -83,6 +83,8 @@
 	#entrada_pages ul
 	{
 		display: inline-block;
+		justify-content: center;
+		align-self: center;
 	}
 
 	#entrada_pages ul li
@@ -202,12 +204,17 @@
 	.caixaB,
 	.caixaC
 	{
-		float: left;
-		margin-right: 20px;
+		display: inline-block;
 		width: 320px;
 		background-color: whitesmoke;
 		border: solid gray;
 		border-radius: 20px;
+	}
+
+	.caixaA,
+	.caixaB
+	{
+		margin-right: 0.8em;
 	}
 
 	.caixaA p,
@@ -268,7 +275,9 @@
 
 	.d
 	{
-		background-image: url("Imagens/Floresta.jpg");
+		background-image: url("Imagens/Floresta3.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
 		border-radius: 0px 0px 40px 40px;
 	}
 
@@ -322,14 +331,12 @@ color: black;
 
 .icones-maos
 {
-margin: -0.6px;
+	transition: all .3s ;
 }
 
 .icones-maos:hover
 {
-width:124.4px;
-height: 124.4px;
-margin: -5.7px;
+	transform: scale(1.1);
 }
 
 .titulo-h3
@@ -389,7 +396,7 @@ margin-top: 2.5em;
 .row div
 {
 float: left;
-  width: 48%;
+width: 48%;
 text-align: center;
 padding: 10px;
 }
@@ -407,7 +414,7 @@ text-align: left;
 outline:none;
 margin-bottom: 4em;
 width: 80%;
-height: 80%;
+height:max-content;
 }
 
 .image_vac
@@ -570,4 +577,29 @@ text-align: justify;
 	width: 90%;
 	margin:3em auto;
 	background-color: black;
+}
+
+.btn {
+	border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: #009E2D;
+	border: green;
+    text-decoration: none;
+}
+.btn::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
 }
