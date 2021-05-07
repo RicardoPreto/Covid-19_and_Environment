@@ -1,0 +1,143 @@
+/* Tags utilizadas na Terceira Página - Covid-19 e o Meio-Ambiente */
+
+	.co2_emission
+	{
+		text-align:center;
+		width: 90% !important;
+	}
+
+	.title_page03
+	{
+		font-size:25px;
+		color:whitesmoke;
+		font-family:'Varela';
+		margin-bottom: 25px;
+		padding:1.5em;
+	}	
+
+	.div_co2_emission div
+	{
+		float: right;
+		width: 48%;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.image_co2_sector
+	{
+		border-radius: 5px;
+		border-style: unset;
+		width:37.5em;	
+		height: 350px;
+	}
+
+	.txt_font_daily
+	{
+		color: white;
+		font-size: 15px;
+		font-family:'Varela';
+	}
+
+	.txt_font_daily a
+	{
+		text-decoration: none;
+		color: white;
+	}
+
+	.txt_co2_1
+	{
+		margin-top:23px;
+		font-size:16px;
+		font-family:'Varela';
+		color:whitesmoke;
+		text-align: justify;
+	}
+
+	.txt_co2_2
+	{
+		font-size:16px;
+		font-family:'Varela';
+		color:whitesmoke;
+		text-align: justify;
+	}
+
+	.delivery_co2
+	{
+		margin:6em auto !important;
+		width: 90% !important;
+		background-color: gray;
+		border-radius: 7px;
+		border: unset;
+	}
+
+	.pad_right p
+	{
+		margin-right: 3em;
+		padding-right: 10px;
+		font-family:'Varela';
+		color:whitesmoke;
+		text-align: justify;
+		font-size:15px;
+	}
+
+	.pad_left p
+	{
+		margin-left: 3em;
+		padding-left: 10px;
+		font-family:'Varela';
+		color:whitesmoke;
+		text-align: justify;
+		font-size:15px;
+	}
+
+	.paragraphs_source
+	{
+		display: block;
+		margin-left: 20%;
+	}
+
+	.crisis_co2
+	{
+		margin:6em auto !important;
+		width: 90% !important;
+		border-radius: 7px;
+		background-color: #202020;
+	}
+
+	.div_crisis div
+	{
+		float: right;
+		width: 48%;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.list_crisis
+	{
+		margin-left:7%;
+		margin-right: 3em;
+		color:white;
+		list-style-type: square;
+		text-align:left;
+		font-size: 15px;
+		font-family: 'Varela';
+	}
+
+	.help_co2
+	{
+		border-radius:7px;
+		border:unset;
+		width: 90% !important;
+		margin:6em auto !important;
+		background-color: black;
+	}
+
+	.div_help_crisis div
+	{
+		float: right;
+		width: 48%;
+		text-align: center;
+		padding: 10px;
+	}
+
+/* Fim - Tags utilizadas na Terceira Página */

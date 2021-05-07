@@ -1,0 +1,41 @@
+/* Tags utilizadas na Quarta Página - Isolamento Social */
+
+	.container_isolamento
+	{
+		text-align: center;
+	}
+
+	.title_isolamento
+	{
+		font-size:25px;
+		color:whitesmoke;
+		font-family:'Varela';
+		margin-bottom: 25px;
+		padding:1.5em;
+	}
+
+	.div_isolamento div
+	{
+		float: left;
+		width: 48%;
+		text-align: center;
+	}
+
+	.img_isolamento img
+	{
+		width: 450px;
+		height: 400px;
+		margin: 6em 2em 6em 0;
+		border-radius: 10px;
+	}
+
+	.text_isolamento p
+	{
+		font-family: 'Varela';
+		color:whitesmoke;
+		font-size: 17px;
+		text-align: justify;
+	}
+
+
+/*  Fim - Tags utilizadas na Quarta Página */

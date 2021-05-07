@@ -1,0 +1,102 @@
+/* Tags utilizadas na Página Inicial - Page 1 */
+
+    .z{
+        background-image: url("/Imagens/Road.jpg");
+        border-radius: 0px 0px 40px 40px;
+        margin-bottom: 6em;
+    }
+
+    .caixas div 
+    {
+        margin-top: 6em;
+        margin-bottom: 6em;
+    }
+
+    .caixaA,
+    .caixaB,
+    .caixaC
+    {
+        display: inline-block;
+        width: 320px;
+        background-color: whitesmoke;
+        border: solid gray;
+        border-radius: 20px;
+    }
+
+    .caixaA,
+    .caixaB
+    {
+        margin-right: 0.8em;
+    }
+
+    .caixaA p,
+    .caixaB p,
+    .caixaC p
+    {
+        margin-bottom: 0;
+        padding: 3.2em 2.6em;
+    }
+
+    .x2
+    {
+        background-color: grey;
+    }
+
+    .graph_border
+    {
+        margin-top: 7em;
+        margin-bottom: 7em;
+        border-radius: 20px;
+        border: 5px outset whitesmoke;
+    }
+
+    .graph_border span
+    {
+        margin-bottom: 0.6em;
+    }
+
+    .title_graph
+    {
+        margin-top: 3em;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 130px;
+        padding-top: 15px;
+        color: black;
+    }
+
+    .text_source a
+    {
+        margin-bottom: 0.6em;
+        color: white;
+    }
+
+    .texto_1
+    {
+        color: white;
+        font-size: 10px;
+        margin-bottom: 3em;
+    }
+
+    .d
+    {
+        background-image: url("/Imagens/Floresta.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 0px 0px 40px 40px;
+        margin-top: 6em;
+        margin-bottom: 6em;
+    }
+
+    .x3 img
+    {   
+        padding: 0 10em;
+        margin-bottom: 6em;     
+        background-color: white;
+        border-radius: 20px;
+        border-style: inset;
+        border-width: 5px;
+        border-color: white;
+    }
+
+/* Fim - Tags da Primeira Página */

@@ -1,0 +1,260 @@
+/* Tags utilizadas em todas as páginas */
+
+	body
+	{
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		background: #333333;
+		font-family: 'Varela', sans-serif;
+		font-size: 11pt;
+		font-weight: 300;
+		color: #656565;
+	}
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 700;
+		color: #2B3F48;
+	}
+
+	ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+
+	p
+	{
+		margin-top: 0;
+		line-height: 180%;
+	}
+
+	a
+	{
+		text-decoration: none;
+	}
+
+	a:hover
+	{
+		text-decoration: none;
+	}
+
+	#cabecalho
+	{
+		position: left;
+		padding: 3.8em 0em;
+	}
+
+	.container
+	{
+		overflow: hidden;
+		margin: 0 auto;
+		width: 80%;
+		text-align: center;
+	}
+
+	#texto-cabecalho
+	{
+		position: absolute;
+		margin-left: 6em;
+		margin-top: 0.5em;
+		top: 1em;
+		left: 0;
+		color: #FFF;
+	}
+
+	#texto-cabecalho a
+	{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #FFF;
+	}
+
+	#entrada_pages
+	{
+		position: absolute;
+		top: 3.7em;
+		right: 0;
+	}
+
+	#entrada_pages ul
+	{
+		display: inline-block;
+		justify-content: center;
+		align-self: center;
+	}
+
+	#entrada_pages ul li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+
+	#entrada_pages ul li a
+	{
+		padding: 0em 1em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.9em;
+		color: #FFF;
+		text-align: center;
+		transition: all .3s;
+		font-weight: bold;
+	}
+
+	.link_pages_main
+	{
+		transition: all .1s;
+	}
+
+	.link_pages_main:hover{
+		
+		font-size: 1em;
+		position: relative;
+		top:-1.1em;
+		right: 0;
+		border: solid green;
+		border-width: 2.2px 1px 1px 2.2px;
+		padding-top: 1em;
+		padding-bottom: 1.6em;
+		color: #FFF;
+		border-radius: 5px 5px 0 0;
+		margin-right: 0.5em;
+		background-color: #363636;
+	}
+
+	.current_page_item
+	{
+		position: relative;
+		top:-1em;
+		right: 0;
+		padding-top: 1em;
+		padding-bottom: 1.6em;
+		background: green;
+		color: #FFF;
+		border-radius: 5px 5px 0 0;
+		margin-right: 0.5em;
+	}
+
+	.last_page
+	{
+		margin-right: 0.4em;
+	}
+
+	.line-color
+	{
+		width: 100%;
+		height: 0.2em;
+		background-color: green;
+	}
+
+	#info_oms
+	{
+		overflow: hidden;
+		padding: 7em 0em 5em 0em;
+		background: #202020;
+		background-size: cover;
+		text-align: center;
+		color: rgba(255,255,255,.8);
+	}
+
+	.titulo
+	{
+		margin-bottom: 3em;
+		text-transform: uppercase !important;
+		text-align: center;
+	}
+
+	.titulo h2
+	{
+		color: #FFF;
+		text-transform: uppercase;
+		font-size: 2.7em;
+	}
+
+	.subt_oms
+	{
+		color: rgba(255,255,255,.6);
+		font-size: 1.7em;
+		color: #6F6F6F;
+	}
+
+	.button
+	{
+		display: inline-block;
+		padding: 0em 3em;
+		letter-spacing: 0.20em;
+		line-height: 4em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1em;
+		color: #FFF;
+		margin-top: 3em;
+		background: #009E2D;
+		text-align: center;
+		border-radius: 5px;
+		border-style: solid;
+		border-color: green;
+	}
+
+	.button:hover
+	{
+		font-weight: bold;
+		background-color: green;
+	}
+
+	.text_source
+    {
+        color: whitesmoke;
+        font-family:'Varela';
+        font-size:15px;
+    }
+
+	.page_end
+	{
+		background-color: gray;
+		text-align: center;
+		border-radius: 20px;
+		padding: 2.2em;
+	}
+
+	.text_page_end
+	{
+		color: whitesmoke;
+		text-decoration: none;
+	}
+
+	.btn_scroll_page {
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		width: 3.5em;
+		height: 3.5em;
+		background-color: #009E2D;
+		border: green;
+		text-decoration: none;
+	}
+
+	.btn_scroll_page::after {
+		content: "↑";
+		font-size: 32px;
+		font-weight: bold;
+		color: aliceblue;
+		transition: margin-top 250ms;
+	}
+
+	.btn_scroll_page:hover::after {
+		margin-top:-8px;
+	}
+
+/* Fim - Tags utilizadas em todas as páginas */
