@@ -2,16 +2,12 @@
 
 	.container_isolamento
 	{
+		background-color:rgb(36, 35, 35);
 		text-align: center;
-	}
-
-	.title_isolamento
-	{
-		font-size:25px;
-		color:whitesmoke;
-		font-family:'Varela';
-		margin-bottom: 25px;
-		padding:1.5em;
+		border-radius: 7px;
+		border: 5px solid black;
+		margin-top: 3em !important; 
+		margin-bottom: 3em !important;
 	}
 
 	.div_isolamento div
@@ -19,13 +15,15 @@
 		float: left;
 		width: 48%;
 		text-align: center;
+		margin-bottom: 2em;
+		margin-top: 2em;
 	}
 
 	.img_isolamento img
 	{
 		width: 450px;
 		height: 400px;
-		margin: 6em 2em 6em 0;
+		margin: 1em 2em 1em 0;
 		border-radius: 10px;
 	}
 
@@ -37,5 +35,49 @@
 		text-align: justify;
 	}
 
+	.div_imp_isolamento
+	{
+		background-color: #3a3939;
+		border-radius: 7px;
+		border: 5px solid;
+		margin-top: 3em !important; 
+		margin-bottom: 3em !important;
+	}
+
+	.title_page04
+	{
+		font-size: 22px;
+		font-family: 'Varela';
+		color: whitesmoke;
+		margin-top: 2em;
+	}
+
+	.txt_imp_isolamento
+	{
+		font-family: 'Varela';
+		font-size: 17px;
+		margin-top:2em;
+		margin-right:8em;
+		margin-left:8em;
+		margin-bottom:3em;
+		text-align:justify;
+		color:whitesmoke;
+	}
+
+	.container_buttons_app
+	{
+		text-align: center;
+		flex-direction: row;
+	}
+
+	.button_uber,
+	.button_ifood,
+	.button_rappi
+	{
+		display:inline-block;
+		width:20em;
+		padding:2em;
+		background-color:white;
+	}
 
 /*  Fim - Tags utilizadas na Quarta Página */
