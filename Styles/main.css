@@ -109,11 +109,10 @@
 
 	.link_pages_main
 	{
-		transition: all .1s;
+		transition: all .450ms;
 	}
 
 	.link_pages_main:hover{
-		
 		font-size: 1em;
 		position: relative;
 		top:-1.1em;
@@ -208,6 +207,15 @@
 		font-weight: bold;
 		background-color: green;
 	}
+	
+	.all_titles
+    {
+        color:whitesmoke;
+        font-size:1.8em;
+        font-family: 'Varela';
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
 
 	.text_source
     {

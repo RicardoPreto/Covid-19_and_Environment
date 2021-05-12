@@ -19,6 +19,7 @@
 
     .txt_corona p
     {
+        font-family: 'Varela';
         margin-top: 40%;
         color:whitesmoke;
         font-size: 18px;
@@ -37,14 +38,15 @@
     {
         color:whitesmoke;
         margin-top: 3em;
-        font-size:40px;
+        font-size:3em;
         font-family: 'Varela';
     }
 
     .desc-transmissao p
     {
+        font-family: 'Varela';
         color:gray;
-        font-size:20px;
+        font-size: 18px;
         margin: 0 20% 5.5em 20%;
     }
 
@@ -52,14 +54,6 @@
     {
         text-align: center;
         margin-bottom: 6em;
-    }
-
-    .titulo-h3
-    {
-        color:whitesmoke;
-        font-size:1.8em;
-        margin-bottom: 2em;
-        margin-top: 2em;
     }
 
     .icones-maos

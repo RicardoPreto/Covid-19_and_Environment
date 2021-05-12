@@ -33,6 +33,7 @@
     .caixaB p,
     .caixaC p
     {
+        font-family: 'Varela';
         margin-bottom: 0;
         padding: 3.2em 2.6em;
     }
@@ -57,6 +58,7 @@
 
     .title_graph
     {
+        font-family: 'Varela';
         margin-top: 3em;
         font-size: 20px;
         text-align: left;
@@ -67,12 +69,14 @@
 
     .text_source a
     {
+        font-family: 'Varela';
         margin-bottom: 0.6em;
         color: white;
     }
 
     .texto_1
     {
+        font-family: 'Varela';
         color: white;
         font-size: 10px;
         margin-bottom: 3em;
@@ -80,7 +84,7 @@
 
     .d
     {
-        background-image: url("/Imagens/Road.jpg");
+        background-image: url("/Imagens/Floresta.jpg");
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 0px 0px 40px 40px;

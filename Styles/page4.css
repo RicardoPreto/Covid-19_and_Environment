@@ -31,7 +31,7 @@
 	{
 		font-family: 'Varela';
 		color:whitesmoke;
-		font-size: 17px;
+		font-size: 1em;
 		text-align: justify;
 	}
 
@@ -44,18 +44,16 @@
 		margin-bottom: 3em !important;
 	}
 
-	.title_page04
+	.all_titles /* Ajuste da tag utilizadas em toda página */
 	{
-		font-size: 22px;
-		font-family: 'Varela';
-		color: whitesmoke;
-		margin-top: 2em;
+		font-size: 1.5em !important;
+		margin: auto;
 	}
 
 	.txt_imp_isolamento
 	{
 		font-family: 'Varela';
-		font-size: 17px;
+		font-size: 1em;
 		margin-top:2em;
 		margin-right:8em;
 		margin-left:8em;
@@ -66,6 +64,8 @@
 
 	.container_buttons_app
 	{
+		width: 90% !important;
+		margin-bottom: 3em !important;
 		text-align: center;
 		flex-direction: row;
 	}
@@ -74,10 +74,89 @@
 	.button_ifood,
 	.button_rappi
 	{
+		max-height: 5.8em;
 		display:inline-block;
 		width:20em;
-		padding:2em;
-		background-color:white;
+		border-radius: 7px;
+		font-size: 1em;
+		font-weight: bold;
+		color: white;
+		transition: all .2s;
+	}
+
+	.button_uber,
+	.button_ifood
+	{
+		margin-right: 1.5em;
+	}
+
+	.button_uber p, .button_ifood p, .button_rappi p
+	{ 
+		font-family: 'Varela';
+		float: left;
+		margin: 2em 0;
+	}
+
+	.button_uber a, .button_ifood a, .button_rappi a
+	{
+		color: white;
+	}
+
+	.button_uber
+	{
+		background-color: green;
+	}
+
+	.button_ifood
+	{
+		background-color: rgb(236, 5, 5);
+	}
+
+	.button_rappi
+	{
+		background-color: rgb(248, 66, 66);
+	}
+
+	.button_uber:hover
+	{
+		background-color: rgb(1, 151, 1);
+		width: 21.5em;
+	}
+
+	.button_ifood:hover
+	{
+		background-color: rgb(255, 42, 42);
+		width: 21.5em;
+	}
+
+	.button_rappi:hover
+	{
+		background-color: rgb(250, 83, 83);
+		width: 21.5em;
+	}
+
+	.img_icon_uber
+	{
+		margin: 1.2em 0;
+		float: left;
+		justify-content: center;
+		width: 6em;
+	}
+
+	.img_icon_ifood
+	{
+		margin: 0.5em 0;
+		float: left;
+		justify-content: center;
+		width: 5em;
+	}
+
+	.img_icon_rappi
+	{
+		margin: 1em 0;
+		float: left;
+		justify-content: center;
+		width: 5em;
 	}
 
 /*  Fim - Tags utilizadas na Quarta Página */
