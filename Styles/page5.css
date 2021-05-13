@@ -1,5 +1,48 @@
 /* Tags utilizadas na Quinta Página - Hospital Mais Próximo */
 
+.sint_covid
+{
+    border: unset;
+    background-color: gray;
+    border-radius:7px;
+    width: 90% !important;
+	margin:6em auto !important;
+}
 
+.all_titles /* Ajuste da tag utilizadas em toda página */
+{
+    font-size: 1.5em !important;
+    margin: auto;
+}
+
+.container-h2
+{
+    margin:6em auto !important;
+}
+
+.container-h2 div
+{
+    float:left;
+	width: 33.2%;
+}
+
+.pad_right p, .pad_center p, .pad_left p
+{
+    font-family:'Varela';
+    color:whitesmoke;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.list_covid
+{
+    margin-left:2em;
+	margin-right: 3em;
+	color:white;
+	list-style-type: square;
+	text-align:left;
+	font-size: 16px;
+	font-family: 'Varela';
+}
 
 /* Fim - Tags utilizadas na Quinta Página */
