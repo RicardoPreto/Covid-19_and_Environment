@@ -2,17 +2,19 @@
 
 .sint_covid
 {
-    border: unset;
-    background-color: gray;
-    border-radius:7px;
-    width: 90% !important;
+    background-color: #202020;
+    border-radius:5%;
+    width: 60% !important;
 	margin:6em auto !important;
 }
 
-.all_titles /* Ajuste da tag utilizadas em toda página */
+.title /* Ajuste da tag utilizadas em toda página */
 {
-    font-size: 1.5em !important;
+    margin:1.5em 0 !important;
+    font-size: 2em;
     margin: auto;
+    color:whitesmoke;
+    font-family: 'Varela';
 }
 
 .container-h2
@@ -20,29 +22,48 @@
     margin:6em auto !important;
 }
 
-.container-h2 div
-{
-    float:left;
-	width: 33.2%;
-}
-
-.pad_right p, .pad_center p, .pad_left p
-{
-    font-family:'Varela';
-    color:whitesmoke;
-    text-align: justify;
-    font-size: 16px;
-}
-
 .list_covid
 {
-    margin-left:2em;
-	margin-right: 3em;
+    margin-right:auto;
+    margin-left:auto;
 	color:white;
 	list-style-type: square;
 	text-align:left;
 	font-size: 16px;
 	font-family: 'Varela';
+    width: 15%;
+}
+
+.txt_panico
+{
+	color:whitesmoke;
+	font-family: 'Varela';
+    font-size:19px;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.txt_panico_band
+{
+	color:whitesmoke;
+	font-family: 'Varela';
+    font-size:15px;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.but_hospitais
+{
+    cursor:pointer;
+    width:30em;
+    height: 7em;
+    background-color: green;
+    font-size:1.5em;
+    border-radius:15px;
+    font-weight:bold;
+    border:0.2em solid rgb(3, 70, 3);
+    font-family: 'Varela';
+    margin-bottom: 6em;
 }
 
 /* Fim - Tags utilizadas na Quinta Página */

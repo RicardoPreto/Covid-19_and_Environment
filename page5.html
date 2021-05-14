@@ -40,38 +40,10 @@
 		</div>
 	</div>
 	<div class="container sint_covid">
-		<h3 class="all_titles">SINTOMAS COVID-19</h3>
+		<h3 class="title">SINTOMAS COVID-19</h3>
 		<div class="container-h2">
-			<div class="pad_right">
-				<p>
-					SINTOMAS GRAVES:
-				</p>
-				<ul class="list_covid">
-					<li>Dificuldade para Respirar;</li>
-					<li>Falta de Ar;</li>
-					<li>Dor ou Pressão no Peito;</li>
-					<li>Perda de Fala</li>
-					<li>Perda de Movimento</li>
-				</ul>
-			</div>
-			<div class="pad_center">
-				<p>
-					SINTOMAS MENOS COMUNS:
-				</p>
-				<ul class="list_covid">
-					<li>Dores;</li>
-					<li>Dor de Garganta;</li>
-					<li>Diarréia;</li>
-					<li>Conjuntivite;</li>
-					<li>Dor de Cabeça;</li>
-					<li>Perda do Olfato;</li>
-					<li>Perda do Paladar;</li>
-					<li>Erupção Cutânea</li>
-					<li>Descoloração dos Dedos</li>
-				</ul>
-			</div>
-			<div class="pad_left">
-				<p>
+			<div>
+				<p class="txt_panico">
 					SINTOMAS MAIS COMUNS:
 				</p>
 				<ul class="list_covid">
@@ -79,13 +51,42 @@
 					<li>Tosse Seca;</li>
 					<li>Cansaço.</li>
 				</ul>
+				<p class="txt_panico">
+					SINTOMAS MENOS COMUNS:
+				</p>
+				<ul class="list_covid">
+					<li>Dores;</li>
+					<li>Dor de Garganta;</li>
+					<li>Diarréia;</li>
+					<li>Conjuntivite</li>
+					<li>Dor de Cabeça;</li>
+					<li>Perda do Olfato;</li>
+					<li>Perda do Paladar;</li>
+					<li>Erupção Cutânea;</li>
+					<li>Descoloração dos Dedos.</li>
+				</ul>
+				<p class="txt_panico">
+					SINTOMAS GRAVES:
+				</p>
+				<ul class="list_covid">
+					<li>Dificuldade para Respirar;</li>
+					<li>Falta de Ar;</li>
+					<li>Dor ou Pressão no Peito;</li>
+					<li>Perda de Fala;</li>
+					<li>Perda de Movimento.</li>
+				</ul>
+				<p class="txt_panico_band">
+					<b>CASO VOCÊ APRESENTE ALGUM DOS SINTOMAS APRESENTADOS, PROCURE UM HOSPITAL IMEDIATAMENTE</b><br>
+					CLIQUE NO BOTÃO ABAIXO PARA PESQUISAR OS HOSPITAIS NA SUA PROXIMIDADE
+				</p>
 			</div>
 		</div>
 	</div>
-	<div>
+	<div class="container">
 		<form method="GET" action="https://www.google.com.br/maps/search/hospitais">
-			<input type="text" value="q" placeholder="Ex: São José dos Campos">
-			<input type="submit" value="Pesquisar">
+			<button type="submit" class="but_hospitais">
+				HOSPITAIS MAIS PRÓXIMOS
+			</button>
 		</form>
 	</div>
 	<div class="page_end">
