@@ -5,24 +5,26 @@
 	<meta charset="utf-8">
 	<title>O que é o Covid-19?</title>
 	<link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
-	<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="Styles/page2.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="Styles/main.css" rel="stylesheet" type="text/css" media="all"/>
 </head>
 
 <body>
-	<div id="cabecalho" class="container">
+	<div id="cabecalho">
 		<div id="texto-cabecalho">
 			<h1><a href="">Covid-19</a></h1>
 		</div>
 		<div id="entrada_pages">
 			<ul>
-				<li><a href="index.html">Página Inicial</a></li>
+				<li class="link_pages_main"><a href="index.html">Página Inicial</a></li>
 				<li class="current_page_item"><a href="#">O que é o Covid-19?</a></li>
-				<li><a href="page3.html">Covid-19 e o Meio-Ambiente</a></li>
-				<li><a href="page4.html">Isolamento Social</a></li>
-				<li><a class="last_page" href="page5.html">Hospital Mais Próximo</a></li>
+				<li class="link_pages_main"><a href="page3.html">Covid-19 e o Meio-Ambiente</a></li>
+				<li class="link_pages_main"><a href="page4.html">Isolamento Social</a></li>
+				<li class="link_pages_main"><a class="last_page" href="page5.html">Hospital Mais Próximo</a></li>
 			</ul>
 		</div>
 	</div>
+	<div class="line-color"></div>
 	<div id="info_oms">
 		<div class="container">
 			<div class="titulo">
@@ -30,10 +32,10 @@
 				<span class="subt_oms">Fique em Casa e Proteja Seus Familiares</span>
 			</div>
 			<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
-				class="button botao_oms" target="_blank">Orientações OMS</a>
+				class="button" target="_blank">Orientações OMS</a>
 		</div>
 	</div>
-	<div class="row">
+	<div class="image_and_text">
 		<div class="image_covid">
 			<a href="https://coronavirus.saude.gov.br" target="_blank"><img src="Imagens/corona_info.jpg"></a>
 		</div>
@@ -60,10 +62,10 @@
 		</div>
 	</div>
 	<div class="container-como-se-proteger">
-		<h3 class="titulo-h3">
+		<h3 class="all_titles">
 			LAVE AS MÃOS
 		</h3>
-		<div>
+		<div class="maos">
 			<img class="icones-maos" src="https://www.saopaulo.sp.gov.br/guia-coronavirus/assets/images/mao-01.png">
 			<img class="icones-maos" src="https://www.saopaulo.sp.gov.br/guia-coronavirus/assets/images/mao-02.png">
 			<img class="icones-maos" src="https://www.saopaulo.sp.gov.br/guia-coronavirus/assets/images/mao-03.png">
@@ -76,7 +78,7 @@
 		</div>
 	</div>
 	<div class="back_mask container">
-		<h3 class="titulo-h3">
+		<h3 class="all_titles">
 			UTILIZE MÁSCARA
 		</h3>
 		<video class="video" poster="Imagens/Médico_atuando.jpg" controls>
@@ -84,7 +86,7 @@
 		</video>
 	</div>
 	<div class="container">
-		<h3 class="titulo-h3">
+		<h3 class="all_titles">
 			VACINE-SE
 		</h3>
 		<a href="https://vacinaja.sp.gov.br" target="_blank"><img src="Imagens/primeira_medica_vacinada.webp"
@@ -92,7 +94,7 @@
 		<p class="text_vac">Acompanhe a vacinação em seu município.</p>
 	</div>
 	<div class="back_stayhome container">
-		<h3 class="titulo-h3">
+		<h3 class="all_titles">
 			FIQUE EM CASA
 		</h3>
 		<video class="video" poster="Imagens/Campanha_Fique_Em_Casa.jpeg" controls>

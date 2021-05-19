@@ -1,0 +1,346 @@
+/* Tags utilizadas na Página Inicial - Page 1 */
+
+    .z{
+        background-image: url("/Imagens/Road.jpg");
+        border-radius: 0px 0px 40px 40px;
+        margin-bottom: 6em;
+    }
+
+    .caixas div 
+    {
+        margin-top: 6em;
+        margin-bottom: 6em;
+    }
+
+    .caixaA,
+    .caixaB,
+    .caixaC
+    {
+        display: inline-block;
+        width: 20em;
+        background-color: whitesmoke;
+        border: solid gray;
+        border-radius: 20px;
+    }
+
+    .caixaA,
+    .caixaB
+    {
+        margin-right: 0.8em;
+    }
+
+    .caixaA p,
+    .caixaB p,
+    .caixaC p
+    {
+        font-size: 0.9em !important;
+        font-family: 'Varela';
+        margin-bottom: 0;
+        padding: 3em 2em;
+    }
+
+    .x2
+    {
+        background-color: grey;
+    }
+
+    .graph_border
+    {
+        margin-top: 7em;
+        margin-bottom: 7em;
+        border-radius: 20px;
+        border: 5px outset whitesmoke;
+    }
+
+    .graph_border span
+    {
+        margin-bottom: 0.6em;
+    }
+
+    .title_graph
+    {
+        font-family: 'Varela';
+        margin-top: 3em;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 130px;
+        padding-top: 15px;
+        color: black;
+    }
+
+    .frame
+    {
+        display: initial;
+        margin: 0 auto;
+		width:48em;
+		height:31em;
+    }
+
+    .text_source a
+    {
+        font-family: 'Varela';
+        margin-bottom: 0.6em;
+        color: white;
+    }
+
+    .texto_1
+    {
+        font-family: 'Varela';
+        color: white;
+        font-size: 10px;
+        margin-bottom: 3em;
+    }
+
+    .d
+    {
+        background-image: url("/Imagens/Floresta.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 0px 0px 40px 40px;
+        margin-top: 6em;
+        margin-bottom: 6em;
+    }
+
+    .x3 img
+    {   
+        width: 65% !important;
+        padding: 0 9em;
+        margin-bottom: 6em;     
+        background-color: white;
+        border-radius: 20px;
+        border-style: inset;
+        border-width: 5px;
+        border-color: white;
+    }
+
+/* Fim - Tags da Primeira Página */
+
+@media(max-width:1300px) and (min-width:1138px)
+{
+    .z{
+        background-image: url("/Imagens/Road.jpg");
+        border-radius: 0px 0px 40px 40px;
+        margin-bottom: 3em;
+    }
+    .caixas div 
+    {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .caixaA,
+    .caixaB,
+    .caixaC
+    {
+        display: inline-block;
+        width: 17em;
+        background-color: whitesmoke;
+        border: solid gray;
+        border-radius: 20px;
+    }
+
+    .caixaA,
+    .caixaB
+    {
+        margin-right: 0.8em;
+    }
+
+    .caixaA p,
+    .caixaB p,
+    .caixaC p
+    {
+        font-size: 0.8em !important;
+        font-family: 'Varela';
+        margin-bottom: 0;
+        padding: 3em 1em;
+    }
+    .x2
+    {
+        background-color: grey;
+    }
+
+    .graph_border
+    {
+        margin-top: 7em;
+        margin-bottom: 7em;
+        border-radius: 20px;
+        border: 5px outset whitesmoke;
+    }
+
+    .graph_border span
+    {
+        margin-bottom: 0.6em;
+    }
+ 
+    .title_graph
+    {
+        font-family: 'Varela';
+        margin-top: 3em;
+        font-size: 1.4em;
+        padding-left: 130px;
+        padding-top: 15px;
+        color: black;
+    }
+
+    .frame
+    {
+        width:48em;
+		height:31em;
+    }
+
+    .text_source a
+    {
+        font-family: 'Varela';
+        margin-bottom: 0.6em;
+        color: white;
+    }
+
+    .texto_1
+    {
+        font-family: 'Varela';
+        color: white;
+        font-size: 10px;
+        margin-bottom: 3em;
+    }
+
+    .d
+    {
+        background-image: url("/Imagens/Floresta.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 0px 0px 40px 40px;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .x3 img
+    {   
+        padding: 0 10em;
+        margin-bottom: 3em;     
+        background-color: white;
+        border-radius: 20px;
+        border-style: inset;
+        border-width: 5px;
+        border-color: white;
+    }
+}
+
+@media(max-width:1137px) and (min-width:941px)
+{
+    .z{
+        background-image: url("/Imagens/Road.jpg");
+        border-radius: 0px 0px 40px 40px;
+        margin-bottom: 2em;
+    }
+    .caixas div 
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .caixaA,
+    .caixaB,
+    .caixaC
+    {
+        display: inline-block;
+        width: 11.5em;
+        background-color: whitesmoke;
+        border: solid gray;
+        border-radius: 20px;
+        margin: 0.3em;
+    }
+
+    .caixaA p,
+    .caixaB p
+    {
+        box-sizing:content-box;
+        line-height: normal;
+        font-size: 0.65em !important;
+        font-family: 'Varela';
+        text-align: center;
+        padding: 2.5em 2em !important;
+    }
+
+    .caixaC p
+    {
+        line-height: normal;
+        font-size: 0.65em !important;
+        font-family: 'Varela';
+        padding:2.5em 0.6em !important;
+    }
+
+    .x2
+    {
+        background-color: grey;
+    }
+
+    .graph_border
+    {
+        margin-top: 7em;
+        margin-bottom: 7em;
+        border-radius: 20px;
+        border: 5px outset whitesmoke;
+    }
+
+    .graph_border span
+    {
+        margin-bottom: 0.6em;
+    }
+
+    .title_graph
+    {
+        font-family: 'Varela';
+        margin-top: 2em;
+        font-size: 1.2em;
+        padding-left: 1.6em;
+        padding-top: 1em;
+        color: black;
+    }
+
+    .frame
+    {
+        display: initial;
+        margin: 0 auto;
+		width:40em;
+		height:20em
+    }
+
+    .text_source a
+    {
+        font-family: 'Varela';
+        margin-bottom: 0.6em;
+        color: white;
+    }
+
+    .texto_1
+    {
+        font-family: 'Varela';
+        color: white;
+        font-size: 10px;
+        margin-bottom: 3em;
+    }
+
+    .d
+    {
+        background-image: url("/Imagens/Floresta.jpg");
+        background-position: center;
+        border-radius: 0px 0px 40px 40px;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .x3 img
+    {   
+        padding: 0 7em;
+        margin-bottom: 2em;     
+        background-color: white;
+        border-radius: 20px;
+        border-style: inset;
+        border-width: 5px;
+        border-color: white;
+    }
+}
+
+@media(max-width:940px){
+    
+}

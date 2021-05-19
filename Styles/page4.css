@@ -1,0 +1,157 @@
+/* Tags utilizadas na Quarta Página - Isolamento Social */
+
+	.container_isolamento
+	{
+		background-color:rgb(36, 35, 35);
+		text-align: center;
+		border-radius: 7px;
+		border: 5px solid black;
+		margin-top: 3em !important; 
+		margin-bottom: 3em !important;
+	}
+
+	.div_isolamento div
+	{
+		float: left;
+		width: 48%;
+		text-align: center;
+		margin-bottom: 2em;
+		margin-top: 2em;
+	}
+
+	.img_isolamento img
+	{
+		width: 450px;
+		height: 400px;
+		margin: 1em 2em 1em 0;
+		border-radius: 10px;
+	}
+
+	.text_isolamento p
+	{
+		font-family: 'Varela';
+		color:whitesmoke;
+		font-size: 1em;
+		text-align: justify;
+	}
+
+	.div_imp_isolamento
+	{
+		background-color: #3a3939;
+		border-radius: 7px;
+		border: 5px solid;
+		margin-top: 3em !important; 
+		margin-bottom: 3em !important;
+	}
+
+	.all_titles /* Ajuste da tag utilizadas em toda página */
+	{
+		font-size: 1.5em !important;
+		margin: auto;
+	}
+
+	.txt_imp_isolamento
+	{
+		font-family: 'Varela';
+		font-size: 1em;
+		margin-top:2em;
+		margin-right:8em;
+		margin-left:8em;
+		margin-bottom:3em;
+		text-align:justify;
+		color:whitesmoke;
+	}
+
+	.container_buttons_app
+	{
+		width: 90% !important;
+		margin-bottom: 3em !important;
+		text-align: center;
+		flex-direction: row;
+		align-self:center;
+		justify-content: center;
+	}
+
+	.button_uber,
+	.button_ifood,
+	.button_rappi
+	{
+		max-height: 5.8em;
+		display:inline-block;
+		width:20em;
+		border-radius: 7px;
+		font-size: 1em;
+		font-weight: bold;
+		color: white;
+
+		transition: all .2s;
+		align-self:center;
+		justify-content: center;
+	}
+
+	.button_uber,
+	.button_ifood
+	{
+		margin-right: 1.5em;
+	}
+
+	.button_uber a, .button_ifood a, .button_rappi a
+	{
+		color: white;
+	}
+
+	.button_uber
+	{
+		background-color: green;
+	}
+
+	.button_ifood
+	{
+		background-color: rgb(235, 23, 23);
+	}
+
+	.button_rappi
+	{
+		background-color: rgb(253, 49, 49);
+	}
+
+	.button_uber:hover
+	{
+		background-color: rgb(1, 151, 1);
+		width: 21.5em;
+	}
+
+	.button_ifood:hover
+	{
+		background-color: rgb(255, 42, 42);
+		width: 21.5em;
+	}
+
+	.button_rappi:hover
+	{
+		background-color: rgb(250, 83, 83);
+		width: 21.5em;
+	}
+
+	.img_icon_uber
+	{
+		margin: 1.2em 0;
+		justify-content: center;
+		width: 6em;
+	}
+
+	.img_icon_ifood
+	{
+		margin: 0.5em 0;
+		justify-content: center;
+		width: 5em;
+	}
+
+	.img_icon_rappi
+	{
+		margin: 1em 0;
+		justify-content: center;
+		width: 5em;
+	}
+
+/*  Fim - Tags utilizadas na Quarta Página */

@@ -5,35 +5,37 @@
 	<meta charset="utf-8" />
 	<title>Covid-19</title>
 	<link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
-	<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="Styles/index.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="Styles/main.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 
 <body>
-	<div id="cabecalho" class="container">
+	<div id="cabecalho">
 		<div id="texto-cabecalho">
 			<h1><a href="">Covid-19</a></h1>
 		</div>
 		<div id="entrada_pages">
 			<ul>
 				<li class="current_page_item"><a href="#">Página Inicial</a></li>
-				<li><a href="page2.html">O que é o Covid-19?</a></li>
-				<li><a href="page3.html">Covid-19 e o Meio-Ambiente</a></li>
-				<li><a href="page4.html">Isolamento Social</a></li>
-				<li><a class="last_page" href="page5.html">Hospital Mais Próximo</a></li>
+				<li class="link_pages_main"><a href="page2.html">O que é o Covid-19?</a></li>
+				<li class="link_pages_main"><a href="page3.html">Covid-19 e o Meio-Ambiente</a></li>
+				<li class="link_pages_main"><a href="page4.html">Isolamento Social</a></li>
+				<li class="link_pages_main"><a class="last_page" href="page5.html">Hospital Mais Próximo</a></li>
 			</ul>
 		</div>
 	</div>
+	<div class="line-color"></div>
 	<div id="info_oms">
 		<div class="container">
 			<div class="titulo">
 				<h2>Siga Sempre as Orientações da OMS</h2>
 				<span class="subt_oms">Fique em Casa e Proteja Seus Familiares</span>
 			</div>
-			<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
-				class="button botao_oms" target="_blank">Orientações OMS</a>
+			<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" class="button"
+				target="_blank">Orientações OMS</a>
 		</div>
 	</div>
-	<div class="z">
+	<div class="div z">
 		<div class="container caixas">
 			<div class="caixaA">
 				<p>Pratique o Distanciamento Social</p>
@@ -41,7 +43,7 @@
 			<div class="caixaB">
 				<p>Use Máscara e Álcool em Gel 70%</p>
 			</div>
-			<div class="caixaC">
+			<div class="caixaB">
 				<p>Lave as Mãos Frequentemente</p>
 			</div>
 		</div>
@@ -49,28 +51,19 @@
 	<div class="container x2 graph_border">
 		<p class="title_graph">Emissão de CO2 Global de Origem Fóssil por Região, 1959-2020</p>
 		<!-- Gráfico Open Source da Global Carbon Project -->
-		<iframe scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px"
-			style="display: initial; margin: 0 auto;"
-			src="https://cbhighcharts2020.s3.eu-west-2.amazonaws.com/smc/emissions_by_country.html" width="770px"
-			height="500px">
+		<iframe class="frame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px"
+			src="https://cbhighcharts2020.s3.eu-west-2.amazonaws.com/smc/emissions_by_country.html">
 		</iframe>
-		<span style="display:block; height:22px; max-width:800px;"><a href="https://www.carbonbrief.org">
-				<img src="https://s3.eu-west-2.amazonaws.com/cbhighcharts2019/cb-logo-highcharts.svg"
-					style="width: 22px; height: 22px; margin-top: 2px; margin-bottom: 2px; float:right; background-repeat: no-repeat; background-size: contain;" /></a>
-		</span>
-		<br>
-		<article class="texto_">Fonte: <a class="linkado"
+		<article class="text_source">Fonte: <a
 				href="https://www.carbonbrief.org/global-carbon-project-coronavirus-causes-record-fall-in-fossil-fuel-emissions-in-2020"
 				target="_blank">Global Carbon Project</a>
-			<br>
 			<p class="texto_1">Gráfico Open Source</p>
 		</article>
-		<br>
 	</div>
 	<div class="d">
 		<div class="container caixas">
 			<div class="caixaA">
-				<p>companhe a Vacinação em Seu Município</p>
+				<p>Acompanhe a Vacinação em Seu Município</p>
 			</div>
 			<div class="caixaB">
 				<p>Proteja Seus Familiares do Grupo de Risco</p>
@@ -84,6 +77,7 @@
 		<img
 			src="https://imagens.ebc.com.br/aWLYyXWNDJEC8ccv7HD7hYfJO50=/754x0/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/photo5147624527843404127.jpg?itok=-UPSZVKK">
 	</div>
+	<a href="#" class="btn_scroll_page"></a>
 	<div class="page_end">
 		<article class="text_page_end">Universidade Paulista - UNIP</article>
 		<article><a class="text_page_end"

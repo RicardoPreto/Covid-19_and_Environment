@@ -1,0 +1,114 @@
+/* Tags utilizadas na Segunda Página - O que é COVID-19 */   
+    
+    .image_and_text div
+    {
+        float: left;
+        width: 48%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .image_covid img
+    {
+        width: 450px;
+        height: 650px;
+        border-radius: 0px 30px 25px 20px;
+        margin-bottom: 2.5em;
+        margin-top: 2.5em;
+    }
+
+    .txt_corona p
+    {
+        font-family: 'Varela';
+        margin-top: 40%;
+        color:whitesmoke;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .back_protect
+    {
+        text-align:center;
+        overflow: hidden;
+        width: 100%;
+        background-color: #202020;
+    }
+
+    .sub-titulo
+    {
+        color:whitesmoke;
+        margin-top: 3em;
+        font-size:3em;
+        font-family: 'Varela';
+    }
+
+    .desc-transmissao p
+    {
+        font-family: 'Varela';
+        color:gray;
+        font-size: 18px;
+        margin: 0 20% 5.5em 20%;
+    }
+
+    .container-como-se-proteger
+    {
+        text-align: center;
+        margin-bottom: 6em;
+    }
+
+    .icones-maos
+    {
+        transition: all .3s ;
+    }
+
+    .icones-maos:hover
+    {
+        transform: scale(1.1);
+    }
+
+    .back_mask
+    {
+        background-color: #202020;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .video
+    {
+        outline:none;
+        margin-bottom: 4em;
+        width: 70%;
+        height:70%;
+    }
+
+    .image_vac
+    {
+        border-radius: 15px;
+        border: 10px unset;
+        height: 90%;
+        width: 90%;
+    }
+
+    .text_vac
+    {
+        margin: 1.4em 0 3.5em 0;
+        font-size:16px;
+        font-family: 'Varela';
+        color:white;
+    }
+
+    .back_stayhome
+    {
+        background-color: #202020;
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .background_page_end
+    {
+        background: #202020;
+        width: 100%;
+        overflow: hidden;
+    }
+
+/* Fim - Tags utilizadas na Segunda Página */   
