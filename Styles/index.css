@@ -61,10 +61,10 @@
     {
         font-family: 'Varela';
         margin-top: 3em;
-        font-size: 20px;
+        font-size: 1.4em;
         text-align: left;
-        padding-left: 130px;
-        padding-top: 15px;
+        padding-left: 7.3em;
+        padding-top: 1em;
         color: black;
     }
 
@@ -87,14 +87,13 @@
     {
         font-family: 'Varela';
         color: white;
-        font-size: 10px;
+        font-size: 0.6em;
         margin-bottom: 3em;
     }
 
     .d
     {
         background-image: url("/Imagens/Floresta.jpg");
-        background-repeat: no-repeat;
         background-position: center;
         border-radius: 0px 0px 40px 40px;
         margin-top: 6em;
@@ -107,21 +106,22 @@
         padding: 0 9em;
         margin-bottom: 6em;     
         background-color: white;
+        border: 5px inset white;
         border-radius: 20px;
-        border-style: inset;
-        border-width: 5px;
-        border-color: white;
     }
 
 /* Fim - Tags da Primeira Página */
 
+
+/* Inicio da Primeira Página Configurada para telas com o tamanho de 1300px até 1138px */
+
 @media(max-width:1300px) and (min-width:1138px)
 {
+
     .z{
-        background-image: url("/Imagens/Road.jpg");
-        border-radius: 0px 0px 40px 40px;
         margin-bottom: 3em;
     }
+
     .caixas div 
     {
         margin-top: 3em;
@@ -132,17 +132,7 @@
     .caixaB,
     .caixaC
     {
-        display: inline-block;
         width: 17em;
-        background-color: whitesmoke;
-        border: solid gray;
-        border-radius: 20px;
-    }
-
-    .caixaA,
-    .caixaB
-    {
-        margin-right: 0.8em;
     }
 
     .caixaA p,
@@ -150,65 +140,26 @@
     .caixaC p
     {
         font-size: 0.8em !important;
-        font-family: 'Varela';
-        margin-bottom: 0;
         padding: 3em 1em;
     }
-    .x2
-    {
-        background-color: grey;
-    }
 
-    .graph_border
-    {
-        margin-top: 7em;
-        margin-bottom: 7em;
-        border-radius: 20px;
-        border: 5px outset whitesmoke;
-    }
+    /* .x2{ Sem alterações nessa tag! }*/
 
-    .graph_border span
-    {
-        margin-bottom: 0.6em;
-    }
- 
-    .title_graph
-    {
-        font-family: 'Varela';
-        margin-top: 3em;
-        font-size: 1.4em;
-        padding-left: 130px;
-        padding-top: 15px;
-        color: black;
-    }
+    /* .graph_border { Sem alterações nessa tag! } */
 
-    .frame
-    {
-        width:48em;
-		height:31em;
-    }
+    /* .title_graph { Sem alterações nessa tag! } */
+
+    /* .frame { Sem alterações nessa tag! } */
 
     .text_source a
     {
-        font-family: 'Varela';
         margin-bottom: 0.6em;
-        color: white;
     }
 
-    .texto_1
-    {
-        font-family: 'Varela';
-        color: white;
-        font-size: 10px;
-        margin-bottom: 3em;
-    }
+    /* .texto_1 { Sem alterações nessa tag! } */
 
     .d
     {
-        background-image: url("/Imagens/Floresta.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 0px 0px 40px 40px;
         margin-top: 3em;
         margin-bottom: 3em;
     }
@@ -216,22 +167,23 @@
     .x3 img
     {   
         padding: 0 10em;
-        margin-bottom: 3em;     
-        background-color: white;
-        border-radius: 20px;
-        border-style: inset;
-        border-width: 5px;
-        border-color: white;
+        margin-bottom: 3em;
     }
+
 }
+
+/* Fim - Primeira Página Configurada para telas com o tamanho de 1300px até 1138px */
+
+
+/* Inicio da Primeira Página Configurada para telas com o tamanho de 1137px até 941px */
 
 @media(max-width:1137px) and (min-width:941px)
 {
+
     .z{
-        background-image: url("/Imagens/Road.jpg");
-        border-radius: 0px 0px 40px 40px;
         margin-bottom: 2em;
     }
+
     .caixas div 
     {
         margin-top: 2em;
@@ -242,89 +194,50 @@
     .caixaB,
     .caixaC
     {
-        display: inline-block;
         width: 11.5em;
-        background-color: whitesmoke;
-        border: solid gray;
-        border-radius: 20px;
         margin: 0.3em;
     }
 
     .caixaA p,
     .caixaB p
     {
-        box-sizing:content-box;
         line-height: normal;
         font-size: 0.65em !important;
-        font-family: 'Varela';
         text-align: center;
         padding: 2.5em 2em !important;
     }
 
-    .caixaC p
+    .caixaC p   
     {
         line-height: normal;
         font-size: 0.65em !important;
-        font-family: 'Varela';
         padding:2.5em 0.6em !important;
     }
 
-    .x2
-    {
-        background-color: grey;
-    }
+    /* .x2{ Sem alterações nessa tag! }*/
 
-    .graph_border
-    {
-        margin-top: 7em;
-        margin-bottom: 7em;
-        border-radius: 20px;
-        border: 5px outset whitesmoke;
-    }
-
-    .graph_border span
-    {
-        margin-bottom: 0.6em;
-    }
+    /* .graph_border { Sem alterações nessa tag! } */
 
     .title_graph
     {
-        font-family: 'Varela';
         margin-top: 2em;
         font-size: 1.2em;
         padding-left: 1.6em;
         padding-top: 1em;
-        color: black;
     }
 
     .frame
     {
-        display: initial;
-        margin: 0 auto;
 		width:40em;
 		height:20em
     }
 
-    .text_source a
-    {
-        font-family: 'Varela';
-        margin-bottom: 0.6em;
-        color: white;
-    }
+    /* .text_source { Sem alterações nessa tag! } */
 
-    .texto_1
-    {
-        font-family: 'Varela';
-        color: white;
-        font-size: 10px;
-        margin-bottom: 3em;
-    }
+    /* .texto_1 { Sem alterações nessa tag! } */
 
     .d
     {
-        background-image: url("/Imagens/Floresta.jpg");
-        background-position: center;
-        border-radius: 0px 0px 40px 40px;
         margin-top: 2em;
         margin-bottom: 2em;
     }
@@ -333,14 +246,169 @@
     {   
         padding: 0 7em;
         margin-bottom: 2em;     
-        background-color: white;
-        border-radius: 20px;
-        border-style: inset;
-        border-width: 5px;
-        border-color: white;
+    }
+    
+}
+
+/* Fim - Primeira Página Configurada para telas com o tamanho de 1137px até 941px */
+
+
+/* Inicio da Primeira Página Configurada para telas com o tamanho de 940px até 561px */
+
+@media(max-width:940px) and (min-width:561px)
+{
+
+    .z{
+        margin-bottom: 2em;
+    }
+
+    .caixas div 
+    {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        width: 85%;
+    }
+
+    .caixaA,
+    .caixaB
+    {
+        margin-right: 0em;
+    }
+
+    .caixaA p,
+    .caixaB p,
+    .caixaC p
+    {
+        line-height: normal;
+        font-size: 0.7em !important;
+        text-align: center;
+        padding: 2em 1.6em !important;
+    }
+
+    /* .x2 { Sem alterações nessa tag! } */
+
+    .graph_border
+    {
+        margin: 7em 0;
+        width: 80% !important;
+    }
+
+    .title_graph
+    {
+        margin-top: 2em;
+        font-size: 1em;
+        padding: 0;
+        margin-left: 3em;
+    }
+
+    .frame
+    {
+		width:30em;
+		height:25em;
+    }
+
+    /* .text_source { Sem alterações nessa tag! } */
+
+    /* .texto_1 { Sem alterações nessa tag! } */
+
+    .d
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .x3
+    {
+        width: 95% !important;
+    }
+
+    .x3 img
+    {   
+        padding: 0 2em;
+        margin-bottom: 2em;
+        width: 80% !important;
+        height: 16em !important;
     }
 }
 
-@media(max-width:940px){
-    
+/* Fim - Primeira Página Configurada para telas com o tamanho de 940px até 561px */
+
+
+/* Inicio da Primeira Página Configurada para telas com o tamanho de 560px ou menor */
+
+@media(max-width:560px)
+{
+
+    .z{
+        margin-bottom: 2em;
+    }
+
+    .caixas div 
+    {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        width: 85%;
+    }
+
+    .caixaA,
+    .caixaB
+    {
+        margin-right: 0;
+    }
+
+    .caixaA p,
+    .caixaB p,
+    .caixaC p
+    {
+        line-height: normal;
+        font-size: 0.65em !important;
+        text-align: center;
+        padding: 2em 1.6em !important;
+    }
+
+    /* .x2 { Sem alterações nessa tag! } */
+
+    .graph_border
+    {
+        margin: 7em 0;
+        width: 95% !important;
+    }
+
+    .title_graph
+    {
+        margin-top: 2em;
+        font-size: 1em;
+        padding-left: 1em;
+    }
+
+    .frame
+    {
+		width:28em;
+		height:25em;
+    }
+
+    /* .text_source { Sem alterações nessa tag! } */
+
+    /* .texto_1 { Sem alterações nessa tag! } */
+
+    .d
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .x3
+    {
+        width: 95% !important;
+    }
+
+    .x3 img
+    {   
+        padding: 0 2em;
+        margin-bottom: 2em;
+        width: 80% !important;
+        height: 16em !important;
+    }
 }
+
+/* Fim - Primeira Página Configurada para telas com o tamanho de 560px ou menor */

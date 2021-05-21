@@ -7,7 +7,8 @@
 		border-radius: 7px;
 		border: 5px solid black;
 		margin-top: 3em !important; 
-		margin-bottom: 3em !important;
+		margin-bottom: 3em !important; 
+		width: 80% !important;
 	}
 
 	.div_isolamento div
@@ -21,10 +22,11 @@
 
 	.img_isolamento img
 	{
-		width: 450px;
-		height: 400px;
-		margin: 1em 2em 1em 0;
+		width: 28em;
+		height: 25em;
+		margin: 1em;
 		border-radius: 10px;
+		border: 2px solid white;
 	}
 
 	.text_isolamento p
@@ -40,24 +42,21 @@
 		background-color: #3a3939;
 		border-radius: 7px;
 		border: 5px solid;
-		margin-top: 3em !important; 
-		margin-bottom: 3em !important;
+		margin-top: 3em;
+		margin-bottom: 3em;
 	}
 
 	.all_titles /* Ajuste da tag utilizadas em toda página */
 	{
 		font-size: 1.5em !important;
-		margin: auto;
+		margin: 2em auto !important;
 	}
 
 	.txt_imp_isolamento
 	{
 		font-family: 'Varela';
 		font-size: 1em;
-		margin-top:2em;
-		margin-right:8em;
-		margin-left:8em;
-		margin-bottom:3em;
+		margin: 2em 8em 3em 8em;
 		text-align:justify;
 		color:whitesmoke;
 	}
@@ -83,7 +82,6 @@
 		font-size: 1em;
 		font-weight: bold;
 		color: white;
-
 		transition: all .2s;
 		align-self:center;
 		justify-content: center;
@@ -155,3 +153,167 @@
 	}
 
 /*  Fim - Tags utilizadas na Quarta Página */
+
+
+/* Inicio da Quarta Página Configurada para telas com o tamanho de 1275px até 941px */
+
+@media(max-width:1275px) and (min-width:941px)
+{
+
+	.container_isolamento
+	{
+		width: 90% !important;
+		margin: 2em auto !important;
+	}
+
+	.div_isolamento div
+	{
+		float: none;
+		width: 90%;
+		text-align: center;
+		margin: 1em auto;
+	}
+
+	.img_isolamento img
+	{
+		width: 27em;
+		height: 25em;
+		margin: 1em 0;
+	}
+
+	/* .text_isolamento { Sem alterações nessa tag! } */
+
+	.div_imp_isolamento
+	{
+		width: 90% !important;
+	}
+
+	.all_titles /* Ajuste da tag utilizadas em toda página */
+	{
+		font-size: 1.3em !important;
+	}
+
+	.txt_imp_isolamento
+	{
+		margin: 2em 3em;
+	}
+
+	/* .container_buttons_app { Sem alterações nessa tag! } */
+
+	.button_uber,
+	.button_ifood,
+	.button_rappi
+	{
+		width:15.8em;
+	}
+
+	.button_uber:hover
+	{
+		width: 16.5em;
+	}
+
+	.button_ifood:hover
+	{
+		width: 16.8em;
+	}
+
+	.button_rappi:hover
+	{
+		width: 16.8em;
+	}
+
+	/* .img_icon_uber { Sem alterações nessa tag! } */
+
+	/* .img_icon_ifood { Sem alterações nessa tag! } */
+
+	/* .img_icon_rappi { Sem alterações nessa tag! } */
+
+}
+
+/* Fim - Quarta Página Configurada para telas com o tamanho de 1275px até 941px */
+
+
+/* Inicio da Quarta Página Configurada para telas com o tamanho de 940px ou menor */
+
+@media(max-width:940px)
+{
+
+    .container_isolamento
+	{
+		width: 90% !important;
+		margin: 2em auto !important;
+	}
+
+	.div_isolamento div
+	{
+		float: none;
+		width: 90%;
+		margin: 1em auto;
+	}
+
+	.img_isolamento img
+	{
+		width: 23em;
+		height: 20em;
+		margin: 1em 0;
+	}
+
+	/* .text_isolamento { Sem alterações nessa tag! } */
+
+	.div_imp_isolamento
+	{
+		margin-top: 3em !important; 
+		margin-bottom: 3em !important;
+		width: 90% !important;
+	}
+
+	.all_titles /* Ajuste da tag utilizadas em toda página */
+	{
+		font-size: 1.1em !important;
+	}
+
+	.txt_imp_isolamento
+	{
+		margin: 2em 1.6em;
+	}
+
+	/* .container_buttons_app { Sem alterações nessa tag! } */
+
+	.button_uber,
+	.button_ifood,
+	.button_rappi
+	{
+		width:13.8em;
+		margin-bottom: 1em;
+	}
+
+	.button_uber,
+	.button_ifood
+	{
+		margin-right: 0.2em;
+	}
+
+	.button_uber:hover
+	{
+		width: 16.5em;
+	}
+
+	.button_ifood:hover
+	{
+		width: 16.8em;
+	}
+
+	.button_rappi:hover
+	{
+		width: 16.8em;
+	}
+	
+	/* .img_icon_uber { Sem alterações nessa tag! } */
+
+	/* .img_icon_ifood { Sem alterações nessa tag! } */
+
+	/* .img_icon_rappi { Sem alterações nessa tag! } */
+
+}
+
+/* Fim - Quarta Página Configurada para telas com o tamanho de 940px ou menor */
